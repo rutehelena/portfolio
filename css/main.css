@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Press Start 2P';
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: #0A0E1F;
+}
+
+.background {
+    background: linear-gradient(rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5));
+    background-image: url(../assets/cul4HNZ\ -\ Imgur.gif);
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabeçalho-link {
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.cabeçalho-link a {
+    color: white;
+    font-size: 12px;
+}
+
+.cabeçalho-link a :hover {
+    color: rgb(86, 86, 231);
+    transition: 0.3s all;
+}
+
+.cabeçalho-link li :hover {
+    color: rgb(86, 86, 231);
+    transition: 0.3s all;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid rgb(86, 86, 231);
+    color: rgb(86, 86, 231);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.cabeçalho-link button {
+    color: rgb(86, 86, 231);
+    background: transparent;
+    border: solid 1px rgb(86, 86, 231);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+
+}
+
+button:hover {
+    background-color: rgb(86, 86, 231);
+    color: white;
+    transition: 0.5s;
+}
+
+.container-texto {
+    padding: 150px 0 0 130px;
+
+
+}
+
+.texto h3 {
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.texto h1 {
+    color: white;
+    margin-top: 15px;
+    font-size: 48px;
+}
+
+.texto span {
+    color: rgb(52, 52, 185);
+    margin-top: 15px;
+
+
+}
+
+.texto p {
+    color: white;
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 15px;
+
+}
+
+
+
+.parte-dois h1 {
+    color: white;
+    font-size: 18px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 32px;
+}
+
+.parte-dois h2 {
+    color: rgb(86, 86, 231);
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    animation: animacao-icone 800ms ease-in-out infinite alternate;
+   
+
+}
+
+
+.parte-dois h5 {
+    position: absolute;
+    width: 750px;
+    height: 210px;
+    left: 362px;
+    top: 1175px ;
+
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+  
+
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foto {
+    margin-left: 93px;
+
+}
+
+.terceiro {
+    color: rgb(86, 86, 231);
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+ul {
+    color: rgb(86, 86, 231);
+    font-size: 32px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+.projetos h2 {
+    color: rgb(86, 86, 231);
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    animation: animacao-icone 800ms ease-in-out infinite alternate;
+}
+
+.projetos ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+
+}
+
+
+.parte-dois h3{
+    position: absolute;
+    top: 50.0rem;
+    left: 30.5rem;
+    right:16.8rem;
+    font-size: 24px;
+    line-height: 42px;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    width: 750px;
+}
+
+.infos-um h2 {
+    color: rgb(86, 86, 231);
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.1rem;
+    text-align: center;
+    animation: animacao-icone 800ms ease-in-out infinite alternate;
+
+}
+
+.infos-um h3 {
+    position: absolute;
+    top: 71.0rem;
+    left: 25.0rem;
+    font-size: 24px;
+    line-height: 42px;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.projetos {
+    height: 136vh;
+    width: 134.9rem;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30.0rem;
+}
+
+
+.para-celular h2 {
+    color: rgb(86, 86, 231);
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15.5rem;
+    animation: animacao-icone 800ms ease-in-out infinite alternate;
+}
+
+.primeiro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 75px;
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
+
+.computador h2 {
+    color: rgb(86, 86, 231);
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10.0rem;
+    animation: animacao-icone 800ms ease-in-out infinite alternate;
+    line-height: 7.7rem;
+    text-align: center;
+
+
+}
+
+.computador h2 strong {
+    color: white;
+}
+
+
+.img-um {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 65px;
+
+}
+
+.img-dois {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 75px auto;
+
+}
+
+.img-tres {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 50px auto;
+}
+
+@keyframes animacao-icone {
+
+    to {
+        transform: translateY(-1rem);
+
+    }
+
+    from {
+        transform: translateY(1rem);
+
+    }
+
+}
